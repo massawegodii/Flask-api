@@ -8,6 +8,7 @@ from app.utils.db import db
 from app.models.role_model import Role
 from app.models.user_model import User
 from app.routes.auth_routes import auth_bp
+from app.routes.auth_routes import user_bp
 from config import Config 
 
 load_dotenv()
@@ -44,5 +45,6 @@ def create_app():
             db.session.commit()
 
     app.register_blueprint(auth_bp, url_prefix="/auth")
+    app.register_blueprint(user_bp, url_prefix="/user")
 
     return app

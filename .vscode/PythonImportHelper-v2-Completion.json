@@ -1,0 +1,467 @@
+[
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "verify_jwt_in_request",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_identity",
+        "importPath": "flask_jwt_extended",
+        "description": "flask_jwt_extended",
+        "isExtraImport": true,
+        "detail": "flask_jwt_extended",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "app.models.role_model",
+        "description": "app.models.role_model",
+        "isExtraImport": true,
+        "detail": "app.models.role_model",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.utils.db",
+        "description": "app.utils.db",
+        "isExtraImport": true,
+        "detail": "app.utils.db",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.utils.db",
+        "description": "app.utils.db",
+        "isExtraImport": true,
+        "detail": "app.utils.db",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.utils.db",
+        "description": "app.utils.db",
+        "isExtraImport": true,
+        "detail": "app.utils.db",
+        "documentation": {}
+    },
+    {
+        "label": "Bcrypt",
+        "importPath": "flask_bcrypt",
+        "description": "flask_bcrypt",
+        "isExtraImport": true,
+        "detail": "flask_bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "Bcrypt",
+        "importPath": "flask_bcrypt",
+        "description": "flask_bcrypt",
+        "isExtraImport": true,
+        "detail": "flask_bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "isExtraImport": true,
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "isExtraImport": true,
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_profile",
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "isExtraImport": true,
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "app.middlewares.auth",
+        "description": "app.middlewares.auth",
+        "isExtraImport": true,
+        "detail": "app.middlewares.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "peekOfCode": "def register():\n    data = request.get_json()\n    # Validate input data\n    if not data.get(\"firstname\") or not data.get(\"lastname\") or not data.get(\"email\") or not data.get(\"password\"):\n        return jsonify({\"error\": \"Missing required fields\"}), 400\n    if not User.validate_email(data[\"email\"]):\n        return jsonify({\"error\": \"Invalid email format\"}), 400\n    if User.get_by_email(data[\"email\"]):\n        return jsonify({\"error\": \"Email is already in use\"}), 400\n    # Check for Admin role",
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "peekOfCode": "def login():\n    data = request.get_json()\n    user = User.get_by_email(data[\"email\"])\n    if not user or not user.check_password(data[\"password\"]):\n        return jsonify({\"error\": \"Invalid credentials\"}), 401\n     # Creating the access token with the expiration time from Config\n    access_token = create_access_token(identity=user.email, expires_delta=Config.JWT_ACCESS_TOKEN_EXPIRES)\n    return jsonify({\"access_token\": access_token}), 200\n# Update the user profile\ndef update_user_profile(user):",
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_profile",
+        "kind": 2,
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "peekOfCode": "def update_user_profile(user):\n    data = request.json\n    allowed_fields = [\"firstname\", \"lastname\", \"email\", \"profile_image\"]\n    # Ensure only allowed fields are updated\n    for field in data.keys():\n        if field not in allowed_fields:\n            return jsonify({\"message\": f\"Field '{field}' is not allowed to be updated\"}), 400\n    # Validate email\n    if \"email\" in data and not User.validate_email(data[\"email\"]):\n        return jsonify({\"message\": \"Invalid email format\"}), 400",
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 5,
+        "importPath": "app.controllers.auth_controller",
+        "description": "app.controllers.auth_controller",
+        "peekOfCode": "bcrypt = Bcrypt()\ndef register():\n    data = request.get_json()\n    # Validate input data\n    if not data.get(\"firstname\") or not data.get(\"lastname\") or not data.get(\"email\") or not data.get(\"password\"):\n        return jsonify({\"error\": \"Missing required fields\"}), 400\n    if not User.validate_email(data[\"email\"]):\n        return jsonify({\"error\": \"Invalid email format\"}), 400\n    if User.get_by_email(data[\"email\"]):\n        return jsonify({\"error\": \"Email is already in use\"}), 400",
+        "detail": "app.controllers.auth_controller",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "app.middlewares.auth",
+        "description": "app.middlewares.auth",
+        "peekOfCode": "def verify_token(role_required=None):\n    def decorator(fn):\n        @wraps(fn)\n        def wrapper(*args, **kwargs):\n            try:\n                verify_jwt_in_request()\n                user_email = get_jwt_identity()\n                user = User.get_by_email(user_email)\n                if not user:\n                    return jsonify({\"message\": \"User not found\"}), 404",
+        "detail": "app.middlewares.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "app.models.role_model",
+        "description": "app.models.role_model",
+        "peekOfCode": "class Role(db.Model):\n    __tablename__ = 'roles'\n    __table_args__ = {'extend_existing': True} \n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), unique=True, nullable=False)\n    def __init__(self, name):\n        self.name = name\n    @staticmethod\n    def get_role_by_name(name):\n        return Role.query.filter_by(name=name).first()",
+        "detail": "app.models.role_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "peekOfCode": "class User(db.Model):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer, primary_key=True)\n    firstname = db.Column(db.String(255), nullable=False)\n    lastname = db.Column(db.String(255), nullable=False)\n    email = db.Column(db.String(255), unique=True, nullable=False)\n    password = db.Column(db.String(255), nullable=False)\n    profile_image = db.Column(db.String(255), nullable=True)\n    created_at = db.Column(db.DateTime, default=datetime.utcnow)\n    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)",
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 5,
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "peekOfCode": "bcrypt = Bcrypt()\nclass User(db.Model):\n    __tablename__ = 'users'\n    id = db.Column(db.Integer, primary_key=True)\n    firstname = db.Column(db.String(255), nullable=False)\n    lastname = db.Column(db.String(255), nullable=False)\n    email = db.Column(db.String(255), unique=True, nullable=False)\n    password = db.Column(db.String(255), nullable=False)\n    profile_image = db.Column(db.String(255), nullable=True)\n    created_at = db.Column(db.DateTime, default=datetime.utcnow)",
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "update_profile",
+        "kind": 2,
+        "importPath": "app.routes.auth_routes",
+        "description": "app.routes.auth_routes",
+        "peekOfCode": "def update_profile(user):\n    return update_user_profile(user)",
+        "detail": "app.routes.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "auth_bp",
+        "kind": 5,
+        "importPath": "app.routes.auth_routes",
+        "description": "app.routes.auth_routes",
+        "peekOfCode": "auth_bp = Blueprint(\"auth\", __name__)\nuser_bp = Blueprint(\"user\", __name__)\nauth_bp.route(\"/register\", methods=[\"POST\"])(register)\nauth_bp.route(\"/login\", methods=[\"POST\"])(login)\n# Update the user profile\n@user_bp.route(\"/update-profile\", methods=[\"PUT\"])\n@verify_token()\ndef update_profile(user):\n    return update_user_profile(user)",
+        "detail": "app.routes.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "user_bp",
+        "kind": 5,
+        "importPath": "app.routes.auth_routes",
+        "description": "app.routes.auth_routes",
+        "peekOfCode": "user_bp = Blueprint(\"user\", __name__)\nauth_bp.route(\"/register\", methods=[\"POST\"])(register)\nauth_bp.route(\"/login\", methods=[\"POST\"])(login)\n# Update the user profile\n@user_bp.route(\"/update-profile\", methods=[\"PUT\"])\n@verify_token()\ndef update_profile(user):\n    return update_user_profile(user)",
+        "detail": "app.routes.auth_routes",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app.utils.db",
+        "description": "app.utils.db",
+        "peekOfCode": "db = SQLAlchemy()",
+        "detail": "app.utils.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    app.run(debug=True)  # Flask will automatically reload in debug mode",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config:\n    SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default_secret_key\")\n    JWT_SECRET_KEY = os.getenv(\"JWT_SECRET_KEY\", \"default_jwt_secret_key\")\n    SQLALCHEMY_DATABASE_URI = os.getenv(\"SQLALCHEMY_DATABASE_URI\", \"sqlite:///default.db\")\n    JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)  # Token expires in 1 hour\n    SQLALCHEMY_TRACK_MODIFICATIONS = False",
+        "detail": "config",
+        "documentation": {}
+    }
+]
