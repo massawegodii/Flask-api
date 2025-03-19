@@ -5,7 +5,6 @@ from app.middlewares.auth import verify_roles, verify_token
 auth_bp = Blueprint("auth", __name__)
 user_bp = Blueprint("user", __name__)
 
-
 auth_bp.route("/register", methods=["POST"])(register)
 
 auth_bp.route("/login", methods=["POST"])(login)
