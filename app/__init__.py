@@ -3,6 +3,7 @@ from flask_jwt_extended import JWTManager
 from flask_migrate import Migrate
 from dotenv import load_dotenv
 import os
+import uuid
 
 from app.utils.db import db
 from app.models.role_model import Role
@@ -22,24 +23,20 @@ def create_app():
     JWTManager(app)
 
     with app.app_context():
-        db.create_all()  # Ensure tables exist
+        db.create_all()  
 
-        # Check and create the Admin role if it does not exist
-        admin_role = Role.get_role_by_name('Admin')
-        if not admin_role:
-            admin_role = Role(name='Admin')
-            db.session.add(admin_role)
-            db.session.commit()
+        # Ensure all roles exist
+        Role.ensure_roles_exist()
 
         # Check if Admin user exists
         admin_user = User.get_by_email('admin@gmail.com')
         if not admin_user:
             admin_user = User(
-                firstname='Admin',
-                lastname='User',
+                firstname='Godfrey',
+                lastname='Matias',
                 email='admin@gmail.com',
                 password='123',  
-                role_id=admin_role.id
+                role_name='ADMIN'
             )
             db.session.add(admin_user)
             db.session.commit()

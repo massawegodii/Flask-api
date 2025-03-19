@@ -21,23 +21,26 @@ def register():
     if User.get_by_email(data["email"]):
         return jsonify({"error": "Email is already in use"}), 400
 
-    # Check for Admin role
-    admin_role = Role.get_role_by_name('Admin')
-    if not admin_role:
-        admin_role = Role(name='Admin')
-        admin_role.save()
+    # Assign role based on user input (default to "USER")
+    role_name = data.get("role", "USER").upper()
 
+    # Ensure role exists
+    valid_roles = ["ADMIN", "USER", "STAFF", "MANAGER"]
+    if role_name not in valid_roles:
+        return jsonify({"error": f"Invalid role. Choose from {', '.join(valid_roles)}"}), 400
+
+    # Create user with UUID
     user = User(
         firstname=data["firstname"],
         lastname=data["lastname"],
         email=data["email"],
         password=data["password"],
-        role_id=admin_role.id,
+        role_name=role_name,
         profile_image=data.get("profile_image")
     )
     user.save()
 
-    return jsonify({"message": "User registered successfully"}), 201
+    return jsonify({"message": "User registered successfully", "role": user.role_name, "id": user.id}), 201
 
 
 def login():
