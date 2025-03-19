@@ -1,9 +1,11 @@
-#Flask api authentication with MySQL Database
+# 🛡️ Flask API Authentication with MySQL Database
 
-#Activate the Virtual Environment
- #Git Bash
- -source .venv/Scripts/activate
-#Command Prompt (cmd)
- -.venv\Scripts\activate
-#PowerShell
- -.venv\Scripts\Activate.ps1
+This project provides **authentication APIs** using Flask with **MySQL** as the database.
+
+---
+
+##  Activate the Virtual Environment
+
+### **For Git Bash**
+```bash
+source .venv/Scripts/activate
